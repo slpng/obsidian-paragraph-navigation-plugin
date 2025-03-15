@@ -1,0 +1,9 @@
+{
+	"id": "paragraph-navigation",
+	"name": "Paragraph Navigation",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Implements commands for navigating between text paragraphs",
+	"author": "slpng",
+	"isDesktopOnly": false
+}
