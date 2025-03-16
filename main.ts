@@ -40,7 +40,6 @@ export default class ParagraphNavigationPlugin extends Plugin {
 		this.addCommand({
 			id: "move-to-start-of-paragraph",
 			name: "Move to start of paragraph",
-			hotkeys: [{ modifiers: ["Ctrl"], key: "ArrowUp" }],
 			editorCallback: (editor) => {
 				const cursor = editor.getCursor();
 				const content = editor.getValue();
@@ -55,7 +54,6 @@ export default class ParagraphNavigationPlugin extends Plugin {
 		this.addCommand({
 			id: "move-to-end-of-paragraph",
 			name: "Move to end of paragraph",
-			hotkeys: [{ modifiers: ["Ctrl"], key: "ArrowDown" }],
 			editorCallback: (editor) => {
 				const cursor = editor.getCursor();
 				const content = editor.getValue();
@@ -74,7 +72,6 @@ export default class ParagraphNavigationPlugin extends Plugin {
 		this.addCommand({
 			id: "select-to-start-of-paragraph",
 			name: "Select to start of paragraph",
-			hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "ArrowUp" }],
 			editorCallback: (editor) => {
 				const cursor = editor.getCursor();
 				const content = editor.getValue();
@@ -93,7 +90,6 @@ export default class ParagraphNavigationPlugin extends Plugin {
 		this.addCommand({
 			id: "select-to-end-of-paragraph",
 			name: "Select to end of paragraph",
-			hotkeys: [{ modifiers: ["Ctrl", "Shift"], key: "ArrowDown" }],
 			editorCallback: (editor) => {
 				const cursor = editor.getCursor();
 				const content = editor.getValue();
