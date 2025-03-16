@@ -1,7 +1,7 @@
 {
 	"id": "paragraph-navigation",
 	"name": "Paragraph Navigation",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"minAppVersion": "0.15.0",
 	"description": "Navigate between paragraphs",
 	"author": "slpng",
